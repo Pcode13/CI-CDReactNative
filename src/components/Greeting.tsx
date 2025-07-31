@@ -5,7 +5,7 @@ interface Props {}
 
 const Greeting: FC<Props> = () => {
   return <View style={styles.container}>
-            <Text> Hello Typescript Greeting</Text>
+            <Text> Hello Typescript Greeting CI/DC React Native</Text>
          </View>
 };
 
