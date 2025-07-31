@@ -9,6 +9,7 @@ import {
   StatusBar,
   StyleSheet,
   Text,
+  TextInput,
   useColorScheme,
   View,
 } from 'react-native';
@@ -20,6 +21,7 @@ function App() {
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <Text>We are learning CI CD React Native</Text>
+      <TextInput value="Enter the name" />
     </View>
   );
 }
