@@ -13,6 +13,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import Greeting from './src/components/Greeting';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -20,8 +21,7 @@ function App() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Text>We are learning CI CD React Native</Text>
-      <TextInput value="Enter the name" />
+      <Greeting />
     </View>
   );
 }
